@@ -1,23 +1,23 @@
 version: "3.8"
 services:
   web:
-  build: .
-  restart: always
-  labels:
-    - "traefik.enable=true"
-    - "traefik.docker.network=traefik_web"
-    - "traefik.http.routers.miopowered-eu.rule=Host(`miopowered.eu`)"
-    # https
-    - "traefik.http.routers.miopowered-eu.tls=true"
-    - "traefik.http.routers.miopowered-eu.tls.certresolver=letsencrypt"
-    - "traefik.http.routers.miopowered-eu.entrypoints=websecure"
-    # http (redirect to https)
-    - "traefik.http.routers.miopowered-eu-http.rule=Host(`miopowered.eu`)"
-    - "traefik.http.routers.miopowered-eu-http.entrypoints=web"
-    - "traefik.http.routers.miopowered-eu-http.middlewares=redirect-to-https@file"
-    - "traefik.http.services.miopowered-eu.loadbalancer.server.port=80"
-  networks:
-    - web
+    build: .
+    restart: always
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=traefik_web"
+      - "traefik.http.routers.miopowered-eu.rule=Host(`miopowered.eu`)"
+      # https
+      - "traefik.http.routers.miopowered-eu.tls=true"
+      - "traefik.http.routers.miopowered-eu.tls.certresolver=letsencrypt"
+      - "traefik.http.routers.miopowered-eu.entrypoints=websecure"
+      # http (redirect to https)
+      - "traefik.http.routers.miopowered-eu-http.rule=Host(`miopowered.eu`)"
+      - "traefik.http.routers.miopowered-eu-http.entrypoints=web"
+      - "traefik.http.routers.miopowered-eu-http.middlewares=redirect-to-https@file"
+      - "traefik.http.services.miopowered-eu.loadbalancer.server.port=80"
+    networks:
+      - web
 
 networks:
   web:
