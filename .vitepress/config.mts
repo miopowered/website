@@ -18,25 +18,25 @@ export default defineConfig({
         items: [
           {
             text: "FairyChat",
-            link: "/fairychat/",
+            link: "/fairychat",
           },
           {
             text: "FairyTab",
-            link: "/fairytab/",
+            link: "/fairytab",
           },
           {
             text: "FairyPrivateMines",
-            link: "/fairyprivatemines/",
+            link: "/fairyprivatemines",
           },
         ],
       },
     ],
 
     sidebar: {
-      "/fairychat/": [
+      "/fairychat": [
         {
           text: "Getting Started",
-          link: "/fairychat/",
+          link: "/fairychat",
         },
         {
           text: "Frequently Asked Questions",
@@ -60,16 +60,16 @@ export default defineConfig({
           ],
         },
       ],
-      "/fairytab/": [
+      "/fairytab": [
         {
           text: "Getting Started",
-          link: "/fairytab/",
+          link: "/fairytab",
         },
       ],
-      "/fairyprivatemines/": [
+      "/fairyprivatemines": [
         {
           text: "Getting Started",
-          link: "/fairyprivatemines/",
+          link: "/fairyprivatemines",
         },
       ],
     },
