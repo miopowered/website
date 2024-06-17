@@ -28,6 +28,10 @@ export default defineConfig({
             text: "FairyPrivateMines",
             link: "/fairyprivatemines",
           },
+          {
+            text: "FairyVaults",
+            link: "/fairyvaults",
+          },
         ],
       },
     ],
@@ -70,6 +74,86 @@ export default defineConfig({
         {
           text: "Getting Started",
           link: "/fairyprivatemines",
+        },
+      ],
+      "/fairyvaults": [
+        {
+          text: "Getting Started",
+          link: "/fairyvaults",
+        },
+        {
+          text: "Frequently Asked Questions",
+          link: "/fairyvaults/faq",
+        },
+        {
+          text: "Usage",
+          items: [
+            {
+              text: "Commands & Permissions",
+              link: "/fairyvaults/commands-and-permissions",
+            },
+          ],
+        },
+        {
+          text: "Configuration",
+          items: [
+            {
+              text: "General",
+              link: "/fairyvaults/configuration/general",
+            },
+            {
+              text: "Messages",
+              link: "/fairyvaults/configuration/messages",
+            },
+            {
+              text: "Minecraft Materials",
+              link: "/fairyvaults/configuration/minecraft-materials",
+            },
+            {
+              text: "Menus",
+              items: [
+                {
+                  text: "Basics",
+                  link: "/fairyvaults/configuration/menus/basics",
+                },
+                {
+                  text: "Vault Overview",
+                  link: "/fairyvaults/configuration/menus/vault-overview",
+                },
+                {
+                  text: "Vault View",
+                  link: "/fairyvaults/configuration/menus/vault-view",
+                },
+                {
+                  text: "Vault Customize",
+                  link: "/fairyvaults/configuration/menus/vault-customize",
+                },
+                {
+                  text: "Vault Customize Name",
+                  link: "/fairyvaults/configuration/menus/vault-customize-name",
+                },
+                {
+                  text: "Vault Customize Icon",
+                  link: "/fairyvaults/configuration/menus/vault-customize-icon",
+                },
+              ],
+            },
+          ],
+        },
+      ],
+      "/materials": [
+        {
+          text: "Versions",
+          items: [
+            {
+              text: "1.8.8",
+              link: "/materials/1.8.8",
+            },
+            {
+              text: "1.20.6",
+              link: "/materials/1.20.6",
+            },
+          ],
         },
       ],
     },
