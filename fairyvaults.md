@@ -2,6 +2,11 @@
 
 How to install and use FairyVaults on your server.
 
+## Requirements
+
+- Spigot (or a fork like Paper) 1.8.8 or higher
+- **Java 17 or higher**
+
 ## Installation
 
 1. Download the latest version of FairyVaults from the source where you purchased it.
