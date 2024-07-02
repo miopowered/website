@@ -6,16 +6,20 @@
 - Arguments inside `[` and `]` are optional.
   :::
 
-| Command                                       | Description                                         | Permission                         |
-| --------------------------------------------- | --------------------------------------------------- | ---------------------------------- |
-| `/fairyvaults`                                | Open the overview menu.                             | `fairyvaults.command.open`         |
-| `/fairyvaults <number>`                       | Open your vault directly.                           | `fairyvaults.command.open`         |
-| `/fairyvaults admin reload`                   | Reload all configs.                                 | `fairyvaults.command.admin.reload` |
-| `/fairyvaults admin give <player> [amount]`   | Give a vault to a player.                           | `fairyvaults.command.admin.give`   |
-| `/fairyvaults admin view <player> [number]`   | View a player’s vault overview or directly a vault. | `fairyvaults.command.admin.view`   |
-| `/fairyvaults admin delete <player> [number]` | Delete all or a single vault from a player.         | `fairyvaults.command.admin.delete` |
-| `/fairyvaults admin clear <player> [number]`  | Clear all or a single vault from a player.          | `fairyvaults.command.admin.clear`  |
-| `fairyvaults.vault.<amount>`                  | Give players vaults through permissions.            | `fairyvaults.vault.<amount>`       |
+| Command                                       | Description                                              | Permission                              |
+| --------------------------------------------- | -------------------------------------------------------- | --------------------------------------- |
+| `/fairyvaults`                                | Open the overview menu.                                  | `fairyvaults.command.open`              |
+| `/fairyvaults <number>`                       | Open your vault directly.                                | `fairyvaults.command.open`              |
+| `/fairyvaults admin reload`                   | Reload all configs.                                      | `fairyvaults.command.admin.reload`      |
+| `/fairyvaults admin give <player> [amount]`   | Give a vault to a player.                                | `fairyvaults.command.admin.give`        |
+| `/fairyvaults admin view <player> [number]`   | View a player’s vault overview or directly a vault.      | `fairyvaults.command.admin.view`        |
+| `/fairyvaults admin delete <player> [number]` | Delete all or a single vault from a player.              | `fairyvaults.command.admin.delete`      |
+| `/fairyvaults admin clear <player> [number]`  | Clear all or a single vault from a player.               | `fairyvaults.command.admin.clear`       |
+| `fairyvaults.vault.<amount>`                  | Give players vaults through permissions.                 | `fairyvaults.vault.<amount>`            |
+| `fairyvaults.vault.name.color.<color>`        | Allow players to use a color in their vault name.        | `fairyvaults.vault.name.color.<color>`  |
+| `fairyvaults.vault.name.color.hex`            | Allow players to use hex colors in their vault name.     | `fairyvaults.vault.name.color.hex`      |
+| `fairyvaults.vault.name.color.gradient`       | Allow players to use gradients in their vault name.      | `fairyvaults.vault.name.color.gradient` |
+| `fairyvaults.vault.name.color.rainbow`        | Allow players to use rainbow colors in their vault name. | `fairyvaults.vault.name.color.rainbow`  |
 
 ## Give vaults to players
 
