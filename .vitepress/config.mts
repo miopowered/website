@@ -32,6 +32,10 @@ export default defineConfig({
             text: "FairyVaults",
             link: "/fairyvaults",
           },
+          {
+            text: "FairyPrestige",
+            link: "/fairyprestige",
+          },
         ],
       },
     ],
@@ -139,6 +143,29 @@ export default defineConfig({
               ],
             },
           ],
+        },
+      ],
+      "/fairyprestige": [
+        {
+          text: "Getting Started",
+          link: "/fairyprestige",
+        },
+        {
+          text: "Frequently Asked Questions",
+          link: "/fairyprestige/faq",
+        },
+        {
+          text: "Usage",
+          items: [
+            {
+              text: "Commands & Permissions",
+              link: "/fairyprestige/commands-and-permissions",
+            },
+          ],
+        },
+        {
+          text: "Configuration",
+          link: "/fairyprestige/configuration",
         },
       ],
       "/materials": [
