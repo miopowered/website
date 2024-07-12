@@ -6,8 +6,16 @@
 - Arguments inside `[` and `]` are optional.
   :::
 
-| Command                                       | Description                                              | Permission                              |
-| --------------------------------------------- | -------------------------------------------------------- | --------------------------------------- |
-| `/prestige`                                | Open the prestige menu to view requiremeents                                |               |
-| `/prestige reload`                   | Reload all configs.                                      | `fairyprestige.command.prestige.reload`      |
-| `/prestige generate <amount>` | Generate prestige levels for the config file. | `fairyprestige.command.prestige.generate` |
+## Commands and Permissions
+
+| Command                              | Permission                          | Description                         |
+|--------------------------------------|-------------------------------------|-------------------------------------|
+| `/prestige`                          |                                     | Open the prestige requirement menu  |
+| `/prestige reset <player>`           | `fairyprestige.prestige.reset`      | Reset a player back to 0            |
+| `/prestige set <player> <level>`     | `fairyprestige.prestige.set`        | Set a player's prestige level       |
+| `/prestige generate <amount>`        | `fairyprestige.prestige.generate`   | Generate prestige levels            |
+| `/rebirth`                           |                                     | Open the rebirth requirement menu   |
+| `/rebirth reset <player>`            | `fairyprestige.rebirth.reset`       | Reset a player back to 0            |
+| `/rebirth set <player> <level>`      | `fairyprestige.rebirth.set`         | Set a player's rebirth level        |
+| `/rebirth generate <amount>`         | `fairyprestige.rebirth.generate`    | Generate rebirth levels             |
+| `/fairyprestige reload`              | `fairyprestige.reload`              | Reload the configuration            |
