@@ -71,6 +71,7 @@ aliases:
 default-vault-name: "%name%'s Vault"
 
 # The default icon of a vault when it is created.
+# If you want to set a custom model data, use the following format: <material>:<model-data>
 default-vault-icon: CHEST_MINECART
 
 # The size of the vault when it is created. Should be a multiple of 9.
@@ -86,6 +87,7 @@ name-pattern: ^(?! )[a-zA-Z0-9 ,.'_\-()\[\]:]{2,31}(?<! )$
 default-vault-amount: 1
 
 # This is the list of materials that can be selected as a vault icon.
+# If you want to set a custom model data, use the following format: <material>:<model-data>
 selectable-icons:
   - COAL
   - DIAMOND
