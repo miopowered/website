@@ -29,9 +29,9 @@ item:
   # If you want to set the skull owner, set the material to PLAYER_HEAD and use the skull owner.
   owner: "rexlManu"
   # To set custom model data, use this attribute.
-  customModelData: 1
+  custom-model-data: 1
   # Some items like weapons or armor can have extra info in lore. To ignore that, set this to true.
-  hideFlags: true
+  hide-flags: true
 ```
 
 ## Title
