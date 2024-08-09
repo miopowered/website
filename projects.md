@@ -33,6 +33,6 @@ Vaults with customizable name & icon, full NBT Support, custom textures & models
 
 _Give your players the ultimate storage solution with FairyVaults! Store items securely in customizable private vaults. Server admins can distribute vaults via permissions and commands._
 
-You can purchase FairyVaults on [BuildByBit](https://builtbybit.com/resources/fairyvaults.46318)
+You can purchase FairyVaults on [BuiltByBit](https://builtbybit.com/resources/fairyvaults.46318)
 
 Get started with FairyVaults by following the [Getting Started](/fairyvaults) guide.
